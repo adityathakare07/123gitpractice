@@ -69,7 +69,7 @@ public class CustomerController {
 		}
 		return "Data Successfully Submited";
 	}
-
+System.out.println("*****GetMapping*****");
 	@GetMapping("/getAllData")
 	public ResponseEntity<List<CustomerDetails>> displayAllData() {
 		List<CustomerDetails> displayAllData = cs.displayAllData();
