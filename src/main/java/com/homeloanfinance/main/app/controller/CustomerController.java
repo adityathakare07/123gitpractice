@@ -91,6 +91,7 @@ public class CustomerController {
 	
 		ObjectMapper om = new ObjectMapper();
 	CustomerDetails cu = new CustomerDetails();
+System.out.println("git practice");
 
 		try {
 			cu = om.readValue(customer, CustomerDetails.class);
